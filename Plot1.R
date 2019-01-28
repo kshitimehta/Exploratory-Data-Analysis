@@ -1,4 +1,4 @@
-setwd("C:/Users/Kshiti Mehta/Desktop/Exploratory Data Analysis")
+setwd("C:/Users/Kshiti Mehta/Desktop/Exploratory Data Analysis Coursera")
 
 data_full <- read.csv("household_power_consumption.txt", header=T, sep=';', na.strings="?", 
                       nrows=2075259, check.names=F, stringsAsFactors=F, comment.char="", quote='\"')
